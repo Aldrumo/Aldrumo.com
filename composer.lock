@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4720d98cca4586b47c28ea2f5cc40bbe",
+    "content-hash": "b5b84cac805d4410f512e7b10a1e5644",
     "packages": [
         {
             "name": "aldrumo-themes/aldrumo-com",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo-Themes/aldrumo-com.git",
-                "reference": "33bfd5a0edb53af63c08ef1b1a19b4a88ca77466"
+                "reference": "bd770f3b9c4a877473f4bde610ab5bea98a8eaeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/33bfd5a0edb53af63c08ef1b1a19b4a88ca77466",
-                "reference": "33bfd5a0edb53af63c08ef1b1a19b4a88ca77466",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/bd770f3b9c4a877473f4bde610ab5bea98a8eaeb",
+                "reference": "bd770f3b9c4a877473f4bde610ab5bea98a8eaeb",
                 "shasum": ""
             },
             "require": {
@@ -54,20 +54,20 @@
                 "issues": "https://github.com/Aldrumo-Themes/aldrumo-com/issues",
                 "source": "https://github.com/Aldrumo-Themes/aldrumo-com/tree/main"
             },
-            "time": "2021-02-05T07:46:27+00:00"
+            "time": "2021-02-06T11:46:07+00:00"
         },
         {
             "name": "aldrumo/admin",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo/admin.git",
-                "reference": "124acb505f9902883b1f37d454c55d9736cd8e4f"
+                "reference": "7ed96923f2be386d8dcfef084d03729e80bb476b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo/admin/zipball/124acb505f9902883b1f37d454c55d9736cd8e4f",
-                "reference": "124acb505f9902883b1f37d454c55d9736cd8e4f",
+                "url": "https://api.github.com/repos/Aldrumo/admin/zipball/7ed96923f2be386d8dcfef084d03729e80bb476b",
+                "reference": "7ed96923f2be386d8dcfef084d03729e80bb476b",
                 "shasum": ""
             },
             "require": {
@@ -107,9 +107,9 @@
             "description": "The Aldrump Admin Area",
             "support": {
                 "issues": "https://github.com/Aldrumo/admin/issues",
-                "source": "https://github.com/Aldrumo/admin/tree/0.1.0"
+                "source": "https://github.com/Aldrumo/admin/tree/0.1.1"
             },
-            "time": "2021-01-28T08:48:45+00:00"
+            "time": "2021-02-06T11:47:42+00:00"
         },
         {
             "name": "aldrumo/blocks",
