@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77e2c3eae5af61fa748fe69238b4bc3b",
+    "content-hash": "4720d98cca4586b47c28ea2f5cc40bbe",
     "packages": [
+        {
+            "name": "aldrumo-themes/aldrumo-com",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Aldrumo-Themes/aldrumo-com.git",
+                "reference": "33bfd5a0edb53af63c08ef1b1a19b4a88ca77466"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/33bfd5a0edb53af63c08ef1b1a19b4a88ca77466",
+                "reference": "33bfd5a0edb53af63c08ef1b1a19b4a88ca77466",
+                "shasum": ""
+            },
+            "require": {
+                "aldrumo/theme-manager": "^0.1",
+                "owenvoke/blade-fontawesome": "^1.6",
+                "php": "^7.3"
+            },
+            "default-branch": true,
+            "type": "aldrumo-theme",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AldrumoThemes\\AldrumoCom\\AldrumoComServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AldrumoThemes\\AldrumoCom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Barlow",
+                    "email": "mike@mikebarlow.co.uk"
+                }
+            ],
+            "description": "Theme for Aldrumo.com",
+            "support": {
+                "issues": "https://github.com/Aldrumo-Themes/aldrumo-com/issues",
+                "source": "https://github.com/Aldrumo-Themes/aldrumo-com/tree/main"
+            },
+            "time": "2021-02-05T07:46:27+00:00"
+        },
         {
             "name": "aldrumo/admin",
             "version": "0.1.0",
@@ -8880,7 +8930,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "aldrumo-themes/aldrumo-com": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
