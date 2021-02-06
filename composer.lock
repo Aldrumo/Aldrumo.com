@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo-Themes/aldrumo-com.git",
-                "reference": "bd770f3b9c4a877473f4bde610ab5bea98a8eaeb"
+                "reference": "05efb23568ff3634be43a20ebbc9c83e72d1ef9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/bd770f3b9c4a877473f4bde610ab5bea98a8eaeb",
-                "reference": "bd770f3b9c4a877473f4bde610ab5bea98a8eaeb",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/05efb23568ff3634be43a20ebbc9c83e72d1ef9e",
+                "reference": "05efb23568ff3634be43a20ebbc9c83e72d1ef9e",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "issues": "https://github.com/Aldrumo-Themes/aldrumo-com/issues",
                 "source": "https://github.com/Aldrumo-Themes/aldrumo-com/tree/main"
             },
-            "time": "2021-02-06T11:46:07+00:00"
+            "time": "2021-02-06T15:04:28+00:00"
         },
         {
             "name": "aldrumo/admin",
