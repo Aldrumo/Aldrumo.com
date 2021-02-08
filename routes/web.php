@@ -2,4 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('docs', 'AldrumoCom::docs.docs');
+if (! defined('DEFAULT_VERSION')) {
+    define('DEFAULT_VERSION', '8.x');
+}
+
+Route::get('docs', 'DocsController@showRootPage');
+Route::get('docs/{version}/{page?}', 'DocsController@show')->name('docs.version');

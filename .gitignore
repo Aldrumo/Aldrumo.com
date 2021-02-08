@@ -14,3 +14,4 @@ yarn-error.log
 .idea
 Themes
 .DS_Store
+/resources/docs
