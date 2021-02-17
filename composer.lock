@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo-Themes/aldrumo-com.git",
-                "reference": "29556590ee9f0a1e37a769df90494790d4084ef3"
+                "reference": "730d5adbc4be314769c1f6b703dd804f1f914485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/29556590ee9f0a1e37a769df90494790d4084ef3",
-                "reference": "29556590ee9f0a1e37a769df90494790d4084ef3",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/730d5adbc4be314769c1f6b703dd804f1f914485",
+                "reference": "730d5adbc4be314769c1f6b703dd804f1f914485",
                 "shasum": ""
             },
             "require": {
@@ -54,20 +54,69 @@
                 "issues": "https://github.com/Aldrumo-Themes/aldrumo-com/issues",
                 "source": "https://github.com/Aldrumo-Themes/aldrumo-com/tree/main"
             },
-            "time": "2021-02-13T22:59:45+00:00"
+            "time": "2021-02-13T23:05:05+00:00"
         },
         {
-            "name": "aldrumo/admin",
-            "version": "0.1.1",
+            "name": "aldrumo-themes/aldrumo21",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Aldrumo/admin.git",
-                "reference": "7ed96923f2be386d8dcfef084d03729e80bb476b"
+                "url": "https://github.com/Aldrumo-Themes/aldrumo21.git",
+                "reference": "a82e5ee5d7ff770e5eb8755608beb0d233ff8ba7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo/admin/zipball/7ed96923f2be386d8dcfef084d03729e80bb476b",
-                "reference": "7ed96923f2be386d8dcfef084d03729e80bb476b",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo21/zipball/a82e5ee5d7ff770e5eb8755608beb0d233ff8ba7",
+                "reference": "a82e5ee5d7ff770e5eb8755608beb0d233ff8ba7",
+                "shasum": ""
+            },
+            "require": {
+                "aldrumo/theme-manager": "^0.1",
+                "owenvoke/blade-fontawesome": "^1.6",
+                "php": "^7.3"
+            },
+            "type": "aldrumo-theme",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "AldrumoThemes\\Aldrumo21\\Aldrumo21ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AldrumoThemes\\Aldrumo21\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Barlow",
+                    "email": "mike@mikebarlow.co.uk"
+                }
+            ],
+            "description": "Aldrumo21 - The default theme for Aldrumo",
+            "support": {
+                "issues": "https://github.com/Aldrumo-Themes/aldrumo21/issues",
+                "source": "https://github.com/Aldrumo-Themes/aldrumo21/tree/0.1.0"
+            },
+            "time": "2021-02-15T08:44:59+00:00"
+        },
+        {
+            "name": "aldrumo/admin",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Aldrumo/admin.git",
+                "reference": "4f5e38c53ce902bbfe85c96d275bcb5ceab4fc5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Aldrumo/admin/zipball/4f5e38c53ce902bbfe85c96d275bcb5ceab4fc5b",
+                "reference": "4f5e38c53ce902bbfe85c96d275bcb5ceab4fc5b",
                 "shasum": ""
             },
             "require": {
@@ -107,9 +156,9 @@
             "description": "The Aldrump Admin Area",
             "support": {
                 "issues": "https://github.com/Aldrumo/admin/issues",
-                "source": "https://github.com/Aldrumo/admin/tree/0.1.1"
+                "source": "https://github.com/Aldrumo/admin/tree/0.1.3"
             },
-            "time": "2021-02-06T11:47:42+00:00"
+            "time": "2021-02-17T08:49:05+00:00"
         },
         {
             "name": "aldrumo/blocks",
@@ -165,23 +214,23 @@
         },
         {
             "name": "aldrumo/core",
-            "version": "0.1.3",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo/core.git",
-                "reference": "3aad0a2b0e7bd2daddd5446cc5ff4f45bed21164"
+                "reference": "b63f5c9793cc3719ef2794993359e132298a27a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo/core/zipball/3aad0a2b0e7bd2daddd5446cc5ff4f45bed21164",
-                "reference": "3aad0a2b0e7bd2daddd5446cc5ff4f45bed21164",
+                "url": "https://api.github.com/repos/Aldrumo/core/zipball/b63f5c9793cc3719ef2794993359e132298a27a1",
+                "reference": "b63f5c9793cc3719ef2794993359e132298a27a1",
                 "shasum": ""
             },
             "require": {
+                "aldrumo-themes/aldrumo21": "^0.1",
                 "aldrumo/admin": "^0.1",
                 "aldrumo/blocks": "^0.1",
                 "aldrumo/default-page": "^0.2",
-                "aldrumo/default-theme": "^0.1",
                 "aldrumo/route-loader": "^0.1",
                 "aldrumo/settings": "^0.1",
                 "aldrumo/theme-manager": "^0.1",
@@ -223,9 +272,9 @@
             "description": "Aldrumo Core",
             "support": {
                 "issues": "https://github.com/Aldrumo/core/issues",
-                "source": "https://github.com/Aldrumo/core/tree/0.1.3"
+                "source": "https://github.com/Aldrumo/core/tree/0.1.7"
             },
-            "time": "2021-02-06T09:50:24+00:00"
+            "time": "2021-02-17T08:27:14+00:00"
         },
         {
             "name": "aldrumo/default-page",
@@ -273,54 +322,6 @@
                 "source": "https://github.com/Aldrumo/default-page/tree/0.2.0"
             },
             "time": "2021-01-28T08:54:05+00:00"
-        },
-        {
-            "name": "aldrumo/default-theme",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Aldrumo/default-theme.git",
-                "reference": "46dc994c2732eb24a768b708747b3f7f0c6b0127"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo/default-theme/zipball/46dc994c2732eb24a768b708747b3f7f0c6b0127",
-                "reference": "46dc994c2732eb24a768b708747b3f7f0c6b0127",
-                "shasum": ""
-            },
-            "require": {
-                "aldrumo/theme-manager": "^0.1",
-                "php": "^7.3"
-            },
-            "type": "aldrumo-theme",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Aldrumo\\DefaultTheme\\DefaultThemeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Aldrumo\\DefaultTheme\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mike Barlow",
-                    "email": "mike@mikebarlow.co.uk"
-                }
-            ],
-            "description": "Default Aldrumo theme",
-            "support": {
-                "issues": "https://github.com/Aldrumo/default-theme/issues",
-                "source": "https://github.com/Aldrumo/default-theme/tree/0.1.0"
-            },
-            "time": "2021-01-28T08:38:29+00:00"
         },
         {
             "name": "aldrumo/route-loader",
@@ -2077,16 +2078,16 @@
         },
         {
             "name": "laravel/fortify",
-            "version": "v1.7.5",
+            "version": "v1.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/fortify.git",
-                "reference": "12c33249673f16cc1e01d6a3a0e92372153a2f92"
+                "reference": "9a5ec8d52145d5b59bc3f130b814f5f285bc71d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/fortify/zipball/12c33249673f16cc1e01d6a3a0e92372153a2f92",
-                "reference": "12c33249673f16cc1e01d6a3a0e92372153a2f92",
+                "url": "https://api.github.com/repos/laravel/fortify/zipball/9a5ec8d52145d5b59bc3f130b814f5f285bc71d4",
+                "reference": "9a5ec8d52145d5b59bc3f130b814f5f285bc71d4",
                 "shasum": ""
             },
             "require": {
@@ -2136,20 +2137,20 @@
                 "issues": "https://github.com/laravel/fortify/issues",
                 "source": "https://github.com/laravel/fortify"
             },
-            "time": "2021-01-19T15:01:25+00:00"
+            "time": "2021-02-16T15:20:27+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v8.27.0",
+            "version": "v8.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a6680d98f9dadaa363aa7d5218517a08706cee64"
+                "reference": "73dd43d92fcde6c6abc00658ae33391397ca119d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a6680d98f9dadaa363aa7d5218517a08706cee64",
-                "reference": "a6680d98f9dadaa363aa7d5218517a08706cee64",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/73dd43d92fcde6c6abc00658ae33391397ca119d",
+                "reference": "73dd43d92fcde6c6abc00658ae33391397ca119d",
                 "shasum": ""
             },
             "require": {
@@ -2304,20 +2305,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-09T15:14:54+00:00"
+            "time": "2021-02-16T18:07:44+00:00"
         },
         {
             "name": "laravel/jetstream",
-            "version": "v2.1.4",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "5bac1016b90ee0148d5e7d950b04b814977918e7"
+                "reference": "36c46858b2dfd0b6b001872ce4d682a31221bb49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/5bac1016b90ee0148d5e7d950b04b814977918e7",
-                "reference": "5bac1016b90ee0148d5e7d950b04b814977918e7",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/36c46858b2dfd0b6b001872ce4d682a31221bb49",
+                "reference": "36c46858b2dfd0b6b001872ce4d682a31221bb49",
                 "shasum": ""
             },
             "require": {
@@ -2371,7 +2372,7 @@
                 "issues": "https://github.com/laravel/jetstream/issues",
                 "source": "https://github.com/laravel/jetstream"
             },
-            "time": "2021-02-09T16:34:48+00:00"
+            "time": "2021-02-16T18:36:07+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -2759,16 +2760,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.3.17",
+            "version": "v2.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "1a1d43ff365301ae99ed7f0ccf02c553d4eeba03"
+                "reference": "c0c78f430e4151fb6902bbb88c75e782d2549e1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/1a1d43ff365301ae99ed7f0ccf02c553d4eeba03",
-                "reference": "1a1d43ff365301ae99ed7f0ccf02c553d4eeba03",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/c0c78f430e4151fb6902bbb88c75e782d2549e1a",
+                "reference": "c0c78f430e4151fb6902bbb88c75e782d2549e1a",
                 "shasum": ""
             },
             "require": {
@@ -2819,7 +2820,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.3.17"
+                "source": "https://github.com/livewire/livewire/tree/v2.3.18"
             },
             "funding": [
                 {
@@ -2827,7 +2828,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-09T15:15:49+00:00"
+            "time": "2021-02-16T20:34:52+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -6973,7 +6974,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -7032,7 +7033,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7052,16 +7053,16 @@
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "b34bfb8c4c22650ac080d2662ae3502e5f2f4ae6"
+                "reference": "06fb361659649bcfd6a208a0f1fcaf4e827ad342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/b34bfb8c4c22650ac080d2662ae3502e5f2f4ae6",
-                "reference": "b34bfb8c4c22650ac080d2662ae3502e5f2f4ae6",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/06fb361659649bcfd6a208a0f1fcaf4e827ad342",
+                "reference": "06fb361659649bcfd6a208a0f1fcaf4e827ad342",
                 "shasum": ""
             },
             "require": {
@@ -7112,7 +7113,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7128,20 +7129,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "267a9adeb8ecb8071040a740930e077cdfb987af"
+                "reference": "5601e09b69f26c1828b13b6bb87cb07cddba3170"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/267a9adeb8ecb8071040a740930e077cdfb987af",
-                "reference": "267a9adeb8ecb8071040a740930e077cdfb987af",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/5601e09b69f26c1828b13b6bb87cb07cddba3170",
+                "reference": "5601e09b69f26c1828b13b6bb87cb07cddba3170",
                 "shasum": ""
             },
             "require": {
@@ -7193,7 +7194,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7209,20 +7210,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44"
+                "reference": "2d63434d922daf7da8dd863e7907e67ee3031483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
-                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/2d63434d922daf7da8dd863e7907e67ee3031483",
+                "reference": "2d63434d922daf7da8dd863e7907e67ee3031483",
                 "shasum": ""
             },
             "require": {
@@ -7280,7 +7281,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7296,20 +7297,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "6e971c891537eb617a00bb07a43d182a6915faba"
+                "reference": "43a0283138253ed1d48d352ab6d0bdb3f809f248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/6e971c891537eb617a00bb07a43d182a6915faba",
-                "reference": "6e971c891537eb617a00bb07a43d182a6915faba",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/43a0283138253ed1d48d352ab6d0bdb3f809f248",
+                "reference": "43a0283138253ed1d48d352ab6d0bdb3f809f248",
                 "shasum": ""
             },
             "require": {
@@ -7364,7 +7365,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7380,20 +7381,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T17:09:11+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
-                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/5232de97ee3b75b0360528dae24e73db49566ab1",
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1",
                 "shasum": ""
             },
             "require": {
@@ -7444,7 +7445,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7460,11 +7461,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-07T16:49:33+00:00"
+            "time": "2021-01-22T09:19:47+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
@@ -7520,7 +7521,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7540,7 +7541,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -7599,7 +7600,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -7619,7 +7620,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -7682,7 +7683,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.1"
             },
             "funding": [
                 {
@@ -8587,16 +8588,16 @@
     "packages-dev": [
         {
             "name": "facade/flare-client-php",
-            "version": "1.3.7",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492"
+                "reference": "ef0f5bce23b30b32d98fd9bb49c6fa37b40eb546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
-                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/ef0f5bce23b30b32d98fd9bb49c6fa37b40eb546",
+                "reference": "ef0f5bce23b30b32d98fd9bb49c6fa37b40eb546",
                 "shasum": ""
             },
             "require": {
@@ -8640,7 +8641,7 @@
             ],
             "support": {
                 "issues": "https://github.com/facade/flare-client-php/issues",
-                "source": "https://github.com/facade/flare-client-php/tree/1.3.7"
+                "source": "https://github.com/facade/flare-client-php/tree/1.4.0"
             },
             "funding": [
                 {
@@ -8648,20 +8649,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-21T16:02:39+00:00"
+            "time": "2021-02-16T12:42:06+00:00"
         },
         {
             "name": "facade/ignition",
-            "version": "2.5.11",
+            "version": "2.5.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "e91d67353054bf827c64687fcac5ea44e4dcec54"
+                "reference": "5e9ef386aaad9985cee2ac23281a27568d083b7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/e91d67353054bf827c64687fcac5ea44e4dcec54",
-                "reference": "e91d67353054bf827c64687fcac5ea44e4dcec54",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/5e9ef386aaad9985cee2ac23281a27568d083b7e",
+                "reference": "5e9ef386aaad9985cee2ac23281a27568d083b7e",
                 "shasum": ""
             },
             "require": {
@@ -8725,7 +8726,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-02-05T12:52:11+00:00"
+            "time": "2021-02-16T12:46:19+00:00"
         },
         {
             "name": "facade/ignition-contracts",
