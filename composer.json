@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "aldrumo-themes/aldrumo-com": "dev-main",
+        "aldrumo-themes/aldrumo-com": "^0.1",
         "aldrumo/core": "^0.1",
         "erusev/parsedown-extra": "^0.8.1",
         "fideloper/proxy": "^4.4",

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a783ee1832ef9514736f11216da3606b",
+    "content-hash": "f863583500a447ad791d06a303f5f7f9",
     "packages": [
         {
             "name": "aldrumo-themes/aldrumo-com",
-            "version": "dev-main",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo-Themes/aldrumo-com.git",
-                "reference": "730d5adbc4be314769c1f6b703dd804f1f914485"
+                "reference": "547db67df7707bfcdbad7e0dd2f83d0b9a50c9aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/730d5adbc4be314769c1f6b703dd804f1f914485",
-                "reference": "730d5adbc4be314769c1f6b703dd804f1f914485",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo-com/zipball/547db67df7707bfcdbad7e0dd2f83d0b9a50c9aa",
+                "reference": "547db67df7707bfcdbad7e0dd2f83d0b9a50c9aa",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,6 @@
                 "owenvoke/blade-fontawesome": "^1.6",
                 "php": "^7.3"
             },
-            "default-branch": true,
             "type": "aldrumo-theme",
             "extra": {
                 "laravel": {
@@ -52,22 +51,22 @@
             "description": "Theme for Aldrumo.com",
             "support": {
                 "issues": "https://github.com/Aldrumo-Themes/aldrumo-com/issues",
-                "source": "https://github.com/Aldrumo-Themes/aldrumo-com/tree/main"
+                "source": "https://github.com/Aldrumo-Themes/aldrumo-com/tree/0.1.1"
             },
-            "time": "2021-02-13T23:05:05+00:00"
+            "time": "2021-02-22T21:30:17+00:00"
         },
         {
             "name": "aldrumo-themes/aldrumo21",
-            "version": "0.1.0",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Aldrumo-Themes/aldrumo21.git",
-                "reference": "a82e5ee5d7ff770e5eb8755608beb0d233ff8ba7"
+                "reference": "7b34c20bab2aa64a51521df25a5c513901855ec7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo21/zipball/a82e5ee5d7ff770e5eb8755608beb0d233ff8ba7",
-                "reference": "a82e5ee5d7ff770e5eb8755608beb0d233ff8ba7",
+                "url": "https://api.github.com/repos/Aldrumo-Themes/aldrumo21/zipball/7b34c20bab2aa64a51521df25a5c513901855ec7",
+                "reference": "7b34c20bab2aa64a51521df25a5c513901855ec7",
                 "shasum": ""
             },
             "require": {
@@ -101,9 +100,9 @@
             "description": "Aldrumo21 - The default theme for Aldrumo",
             "support": {
                 "issues": "https://github.com/Aldrumo-Themes/aldrumo21/issues",
-                "source": "https://github.com/Aldrumo-Themes/aldrumo21/tree/0.1.0"
+                "source": "https://github.com/Aldrumo-Themes/aldrumo21/tree/0.1.2"
             },
-            "time": "2021-02-15T08:44:59+00:00"
+            "time": "2021-02-22T21:29:20+00:00"
         },
         {
             "name": "aldrumo/admin",
@@ -9182,9 +9181,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "aldrumo-themes/aldrumo-com": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
