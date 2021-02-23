@@ -39,13 +39,6 @@ class DocsController extends Controller
         return redirect('docs/'.DEFAULT_VERSION);
     }
 
-    /**
-     * Show a documentation page.
-     *
-     * @param  string  $version
-     * @param  string|null  $page
-     * @return \Illuminate\Http\RedirectResponse|\Illuminate\View\View
-     */
     public function show($version, $page = null)
     {
         if (! $this->isVersion($version)) {

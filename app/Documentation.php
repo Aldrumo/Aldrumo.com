@@ -70,7 +70,13 @@ class Documentation
             $path = base_path('resources/docs/'.$version.'/'.$page.'.md');
 
             if ($this->files->exists($path)) {
-                return $this->replaceLinks($version, (new Parsedown)->text($this->files->get($path)));
+                return $this->replaceLinks(
+                    $version,
+                    (new Parsedown)->text(
+                        '> {note} Aldrumo is still in Alpha, this documentation is likely to change so please bear that in mind.' . 
+                        $this->files->get($path)
+                    )
+                );
             }
 
             return null;
