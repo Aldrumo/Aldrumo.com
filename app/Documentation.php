@@ -73,7 +73,7 @@ class Documentation
                 return $this->replaceLinks(
                     $version,
                     (new Parsedown)->text(
-                        '> {note} Aldrumo is still in Alpha, this documentation is likely to change so please bear that in mind.' . 
+                        "> {note} Aldrumo is still in Alpha, this documentation is likely to change so please bear that in mind.\n\n" .
                         $this->files->get($path)
                     )
                 );
