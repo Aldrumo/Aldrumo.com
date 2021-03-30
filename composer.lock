@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d047cf54964100fccc2c2631df6fde6",
+    "content-hash": "72709d408be660a5f12c676e953e9aa1",
     "packages": [
         {
             "name": "aldrumo-themes/aldrumo-com",
