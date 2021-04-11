@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "aldrumo-themes/aldrumo-com": "^0.1",
-        "aldrumo/core": "^0.2.0",
+        "aldrumo/core": "^0.3.0",
         "andreaselia/analytics": "^1.3",
         "erusev/parsedown-extra": "^0.8.1",
         "fideloper/proxy": "^4.4",
