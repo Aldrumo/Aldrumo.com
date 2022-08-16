@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de5ae4a69f1f7e976142d1683a44b076",
+    "content-hash": "620b1d439b19c48640d28cf0af6b78cb",
     "packages": [
         {
             "name": "aldrumo-themes/aldrumo-com",
@@ -483,80 +483,6 @@
                 "source": "https://github.com/Aldrumo/theme-manager/tree/0.4.0"
             },
             "time": "2021-06-29T20:28:33+00:00"
-        },
-        {
-            "name": "andreaselia/analytics",
-            "version": "v1.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/andreaselia/laravel-analytics.git",
-                "reference": "0c1d0faa46b28a154609b299242c5ee8acf6f0b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/andreaselia/laravel-analytics/zipball/0c1d0faa46b28a154609b299242c5ee8acf6f0b8",
-                "reference": "0c1d0faa46b28a154609b299242c5ee8acf6f0b8",
-                "shasum": ""
-            },
-            "require": {
-                "ext-intl": "*",
-                "illuminate/collections": "^8.0|^9.0",
-                "illuminate/database": "^8.0|^9.0",
-                "illuminate/http": "^8.0|^9.0",
-                "illuminate/support": "^8.0|^9.0",
-                "illuminate/view": "^8.0|^9.0",
-                "jenssegers/agent": "^2.6",
-                "php": "^7.4|^8.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "6.0",
-                "phpunit/phpunit": "^9.5"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "AndreasElia\\Analytics\\AnalyticsServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AndreasElia\\Analytics\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Elia",
-                    "email": "contact@andreaselia.co.uk"
-                },
-                {
-                    "name": "Tom Irons",
-                    "email": "tom@irons.pw"
-                }
-            ],
-            "description": "Analytics for the Laravel framework.",
-            "keywords": [
-                "analytics",
-                "laravel",
-                "middleware",
-                "package"
-            ],
-            "support": {
-                "issues": "https://github.com/andreaselia/laravel-analytics/issues",
-                "source": "https://github.com/andreaselia/laravel-analytics/tree/v1.5.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/andreaselia",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-07-28T11:01:09+00:00"
         },
         {
             "name": "asm89/stack-cors",
